@@ -28,7 +28,7 @@
     "history": {
       "type": "hasMany",
       "model": "inventory-history",
-      "foreignKey": ""
+      "foreignKey": "car-id"
     }
   },
   "acls": [],

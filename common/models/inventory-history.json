@@ -12,7 +12,7 @@
     },
     "check-in": {
       "type": "date",
-      "required": true
+      "required": false
     }
   },
   "validations": [],
@@ -20,7 +20,7 @@
     "car": {
       "type": "belongsTo",
       "model": "car-type",
-      "foreignKey": ""
+      "foreignKey": "car-id"
     }
   },
   "acls": [],
